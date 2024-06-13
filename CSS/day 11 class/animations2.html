@@ -1,0 +1,56 @@
+<<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Animations 2</title>
+	<style>
+		div{
+			width: 100px;
+			height:100px;
+			background-color: skyblue;
+			position: relative;
+			animation-name: codegnan;
+			animation-duration: 2.5s;
+			animation-delay: 1s;
+			animation-iteration-count: 5;
+			animation-timing-function: ease-in-out;
+			animation-fill-mode: both;
+		}
+		@keyframes
+		codegnan{
+			1%{
+				top:0px;
+				left:0px;
+				background-color: blueviolet;
+			}
+			25%{
+				top:0px;
+				left:50px;
+				background-color: springgreen;
+			}
+			50%{
+				top:50px;
+				left:100px;
+				background-color: orangered;
+			}
+			75%{
+				top:100px;
+				left:100px;
+				background-color: blue;
+			}
+			100%{
+				top:0px;
+				left:0px;
+				background-color: cyan;
+			}
+
+		}
+	</style>
+</head>
+<body>
+	<div>
+	</div>
+</body>
+</html>
